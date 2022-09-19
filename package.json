@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "node.js api for use clubhouse apis",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon src/server.js"
   },
   "repository": {
     "type": "git",
@@ -36,6 +37,10 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.6.1",
     "morgan": "^1.10.0",
-    "multer": "^1.4.5-lts.1"
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }

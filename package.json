@@ -1,0 +1,41 @@
+{
+  "name": "club-rest-api",
+  "version": "0.0.1",
+  "description": "node.js api for use clubhouse apis",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehsanghaffar/clubhouse-rest-api.git"
+  },
+  "keywords": [
+    "restapi",
+    "nodejs",
+    "clubhouse"
+  ],
+  "author": "Ehsan Ghaffar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ehsanghaffar/clubhouse-rest-api/issues"
+  },
+  "homepage": "https://github.com/ehsanghaffar/clubhouse-rest-api#readme",
+  "engines": {
+    "node": ">=14.x",
+    "pnpm": ">=7.x",
+    "npm": ">=8.x"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "helmet": "^6.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}

@@ -7,8 +7,7 @@ const app = runApp();
 
 const port = process.env.PORT || 3000;
 
-const mongoUri =
-  "mongodb+srv://mongoUser:j*e6HeYLPAM&-sZ@cluster0.rnytx.mongodb.net/?retryWrites=true&w=majority";
+const mongoUri = process.env.MONGO_URL;
 
 const connectToDatabase = function () {
   console.log("[database]: connecting to MongoDB...");
